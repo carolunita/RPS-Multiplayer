@@ -1,0 +1,172 @@
+/* GENERAL */
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	background: url(../images/RPSP.jpg) no-repeat center center fixed;
+	background-size: cover;
+	color: #0d900f;
+}
+
+.container {
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+.playground {
+	margin-top: 15px;
+	padding: 5px; 
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+	background-color: #000000;
+}
+
+#player1 {
+	color: #ff0000;
+}
+
+#player2 {
+	color: #0000FF;
+}
+
+#result {
+	color: #ffc000;
+}
+
+/* HEADERS AND TEXT */
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	font-size: 66px;
+	text-align: center;
+	color: #ff0000;
+	text-shadow: 2px 2px #000000 !important;
+}
+
+h2 {
+	font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	font-size: 27px;
+	padding: 3px;
+}
+
+#instructions {
+	color: #ffc000;
+	text-shadow: 2px 2px #000000 !important;
+}
+
+/* IMAGES */
+
+img {
+	margin-bottom: 15px;
+	padding: 10px;
+	height: 50px;
+	width: 50px;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+#rock1:hover, #paper1:hover, #scissors1:hover {
+	background-color: #ff0000 !important;
+}
+
+#rock2:hover, #paper2:hover, #scissors2:hover {
+	background-color: #0000FF !important;
+}
+
+/* FORMS AND CHAT */
+
+#chat {
+	margin: 10px 0px;
+	padding: 10px 20px;
+	height: 250px;
+	width: 100%;
+	text-align: left;
+	border: 1px solid #000000;
+	border-radius: 15px;
+	overflow-y: auto;
+	background: #ffffff;
+	opacity: 0.75;
+}
+
+input {
+	padding: 5px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
+
+#add-name {
+	margin-left: 2px;
+	padding: 5px 10px;
+	background-color: #000000;
+	color: #0d900f;
+}
+
+#add-name:hover {
+	background-color: #0d900f;
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+#chat-input {
+	margin-bottom: 5px;
+	width: 90%;
+}
+
+#send-chat {
+	margin-left: 5px;
+	padding: 5px 5px;
+	background-color: #000000;
+	color: #0d900f;
+	margin-bottom: 5px;
+}
+
+#send-chat:hover {
+	background-color: #0d900f;
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+button {
+	margin: 15px 5px;
+	padding: 5px;
+	width: 100%;
+	background-color: #000000;
+	color: #ff0000;
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	border: none;
+	border-radius: 15px;
+	margin: auto;
+}
+
+button:hover {
+	background-color: #ff0000;
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+/* MEDIA QUERIES */
+
+/* large devices <1200px */
+@media (max-width: 1199px) { 
+	.container {
+		width: 75%;
+	}
+}
+
+/* medium devices <992px */
+@media (max-width: 991px) { 
+}
+
+/* small devices <768px */
+@media (max-width: 767px) { 
+}
+
+/* tiny devices < 576px */
+@media (max-width: 575px) { 
+}
