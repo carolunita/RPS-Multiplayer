@@ -6,4 +6,4 @@ Instructions:
 - Both players pick either rock, paper or scissors
 - The game will track each player's wins and losses
 - Use the chat to send bad words to the other player... ;)
-- Have fun! 
+- Have fun!
